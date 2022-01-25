@@ -48,7 +48,6 @@ header{
 /* JUMBOTRON */
 #jumbotron{
     background-color: rgb(180, 208, 231);
-    height: 500px;
     width: 90%;
     max-width: 1500px;
     margin: 0 auto;
@@ -71,9 +70,44 @@ header{
 .jumbo-img{
     position: absolute;
     top: 35%;
-    left: 35%;
-}
+    left: 35%; 
+} 
 
 .jumbo-img img{
     width: 90%
 }
+
+/* Main */
+
+#buisness-plane{
+    width: 60%;
+    max-width: 1180px;
+    margin: 8rem auto 3rem;
+    height: 800px;
+    background-color: salmon;
+    
+}
+
+.piano,.enterprice{
+    border: 1px solid grey;
+    padding: 10px 25px;
+}
+
+.piano{
+
+    width: calc((100% / 3) - 40px);
+}
+
+#middle{
+    margin: 0 60px;
+}
+
+.piano ul{
+    list-style: none;
+}
+
+.piano-team{
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+
