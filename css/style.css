@@ -79,13 +79,7 @@ header{
 
 /* Main */
 
-#buisness-plane{
-    width: 60%;
-    max-width: 1180px;
-    margin: 8rem auto 3rem;
-}
-
-.piano,.enterprice{
+.border,.enterprice{
     border: 1px solid grey;
     padding: 10px 25px;
 }
@@ -96,10 +90,11 @@ header{
 
 .enterprice{
     width: 100%;
+    margin-top: 3rem;
 }
 
-#middle{
-    margin: 0 60px;
+.middle{
+    margin: 0 60px 5rem;
 }
 
 .piano ul{
@@ -116,8 +111,7 @@ header{
 .container{
     width: 60%;
     max-width: 1180px;
-    background-color: hotpink;
-    margin: 0 auto;
+    margin: 8rem auto;
 }
 
 .partner-img{
@@ -131,3 +125,12 @@ header{
 .partner-text{
     width: 40%;
 }
+
+/* SEZIONE TRE */
+.operation img{
+    width: 100%;
+}
+
+.op-container > div{
+    display: inline-block;
+} 
