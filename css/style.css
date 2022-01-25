@@ -32,7 +32,11 @@ header{
 }
 
 .logo{
-    font-weight: 600;
+    line-height: 75px;
+}
+
+.logo img{
+    vertical-align: middle;
     margin-left: 1.5rem;
 }
 
@@ -90,7 +94,6 @@ header{
 
 .enterprice{
     width: 100%;
-    margin-top: 3rem;
 }
 
 .middle{
