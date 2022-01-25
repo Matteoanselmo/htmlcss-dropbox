@@ -18,14 +18,16 @@ body{
     float: left;
 } 
 
-
 .float-right{
     float: right;
 }
 
+.relative{
+    position: relative;
+}
+
 header{
     height: 80px;
-    background-color: pink;
     line-height: 80px;
 }
 
@@ -41,4 +43,37 @@ header{
     margin: 0 1rem;
     color: black;
     text-decoration: none;
+}
+
+/* JUMBOTRON */
+#jumbotron{
+    background-color: rgb(180, 208, 231);
+    height: 500px;
+    width: 90%;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 4rem;
+}
+
+.jumbo-title *{
+    margin-bottom: 1.5rem; 
+}
+
+.jumbo-title h1{
+    font-size: 4rem;   
+    
+}
+
+.jumbo-subtitle{
+    width: 35%;
+}
+
+.jumbo-img{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+.jumbo-img img{
+    width: 90%
 }
