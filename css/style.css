@@ -63,11 +63,13 @@ a{
 
 }
 
-
-.jumbo-title{
+.container-big{
     width: 90%;
     max-width: 1500px;
     margin: 0 auto;
+}
+
+.jumbo-title{
     padding: 4rem;
 }
 .jumbo-title *{
@@ -273,4 +275,45 @@ a{
 
 .questions i{
     margin-right: 2rem;
+}
+
+/* FOOTER */
+footer{
+    background-color: black;
+}
+
+footer .container-big{
+    padding: 5rem 0 2rem;
+}
+
+.footer-list{
+    color: white;
+}
+
+.footer-list ul{
+    list-style: none;
+    list-style-position: inside;
+    padding-bottom: 2rem;
+}
+
+.list{
+    width: calc((100% / 5) - 6rem);
+    margin-right: 6rem;
+}
+
+.list h4{
+    margin-bottom: 10px; 
+}
+
+.list li{
+    padding: 5px 0;
+}
+
+.list:first-child{
+    border-bottom: 1px solid lightgrey;
+}
+
+.lenguage{
+    margin-top: 2rem;
+    color: white;
 }
