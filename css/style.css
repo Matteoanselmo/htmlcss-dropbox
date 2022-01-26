@@ -25,11 +25,11 @@ body{
 .relative{
     position: relative;
 }
-
+/* HEADER */
 header{
-    height: 80px;
     line-height: 80px;
 }
+
 
 .logo{
     line-height: 75px;
@@ -45,9 +45,16 @@ header{
 } 
 
 a{
-    margin: 0 1rem;
-    color: black;
     text-decoration: none;
+}
+
+.nav a{
+    color: black;
+    margin: 0 1rem;
+}
+
+.nav .btn-blu{
+    color: white;
 }
 
 /* JUMBOTRON */
@@ -57,10 +64,10 @@ a{
 
 .btn-blu{
     border: none;
-    padding: 5px 30px;
+    margin: 0;
+    padding: 5px 50px;
     background-color: rgb(0, 97, 255);
     color: white;
-
 }
 
 .container-big{
