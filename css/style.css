@@ -125,6 +125,18 @@ a{
     width: calc((100% / 3) - 40px);
 }
 
+.funzioni-piano li:nth-child(1n){
+    list-style-image: url(../img/user-regular.svg);
+}
+
+.funzioni-piano li:nth-child(2n){
+    list-style-image: url(../img/folder-regular.svg);
+}
+
+.funzioni-piano li:nth-child(3n){
+    list-style-image: url(../img/pencil-alt-solid.svg);
+}
+
 .piano div{
     margin-bottom: 2rem;
 }
@@ -142,8 +154,22 @@ a{
     margin: 0 60px 3rem;
 }
 
-.piano ul{
-    list-style-image: url(../img/vuejs-brands.svg);
+.piano ul,.funzioni-piano ul{
+    padding: 20px;
+}
+
+
+
+.punti-piano ul{
+    list-style-image: url(../img/check-solid.svg);  
+}
+
+.punti-piano li::before{
+    color: blue;
+}
+
+li::marker{
+    font-size: 30px;
 }
 
 .piano-team{
