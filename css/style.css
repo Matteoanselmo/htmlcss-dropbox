@@ -87,7 +87,7 @@ a{
 .jumbo-img{
     position: absolute;
     top: 35%;
-    left: 35%; 
+    left: 40%; 
 } 
 
 .jumbo-img img{
@@ -95,6 +95,11 @@ a{
 }
 
 /* Main */
+/* BUISNESS SECTION */
+
+#buisness-plane{
+    margin-top: 15rem;
+}
 
 #buisness-plane *{
     padding: 10px;
@@ -103,6 +108,10 @@ a{
 #buisness-plane button{
     text-align: center;
     padding: 10px 20px ;
+}
+
+.piano p a{
+    color: blue;
 }
 
 .border,.enterprice{
@@ -131,12 +140,21 @@ a{
     text-align: center;
 }
 
-/* SEZIONE DUE */
+/* PARTNER SECTION */
+
+#partner button{
+    padding: 5px 10px;
+    background-color: white;
+}
 
 .container{
     width: 60%;
     max-width: 1180px;
-    margin: 12rem auto;
+    margin: 8rem auto;
+}
+
+.partner-text *{
+    padding: 1rem 0;
 }
 
 .partner-img{
@@ -151,7 +169,7 @@ a{
     width: 40%;
 }
 
-/* SEZIONE TRE */
+/* SEZIONE TRE OPERATION */
 .operation img{
     width: 100%;
 }
@@ -159,3 +177,26 @@ a{
 .op-container > div{
     display: inline-block;
 } 
+
+/* SEZIONE QUATTRO TEAM */
+
+.team-text{
+    width: 50%;
+}
+
+.team-text a{
+    color: blue;
+    margin: 0;
+    text-decoration: underline;
+}
+
+/* SEZIONE CINQUE DESIGNIT */
+
+#designit{
+    height: 400px;
+}
+
+.designit-img-container{
+    width: calc(100% / 3);
+}
+
