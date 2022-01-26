@@ -25,6 +25,11 @@ body{
 .relative{
     position: relative;
 }
+
+h2{
+    font-size: 2.7rem;
+}
+
 /* HEADER */
 header{
     line-height: 80px;
@@ -54,6 +59,7 @@ a{
 }
 
 .nav .btn-blu{
+    padding: 5px 20px;
     color: white;
 }
 
@@ -113,6 +119,14 @@ a{
     color: rgb(0, 97, 255);
 }
 
+.input-fatturazione{
+    margin: 3rem 0 2rem;
+}
+
+.professional p:nth-of-type(2n){
+    color: lightgrey;
+}
+
 .buy-plane span{
     padding-bottom: 2rem;
     border-bottom: 1px solid lightgrey;
@@ -121,7 +135,6 @@ a{
 .btn-blu-container{
     text-align: center;
 }
-
 
 .border,.enterprice{
     border: 1px solid lightgrey;
@@ -148,7 +161,6 @@ a{
     margin-bottom: 2rem;
 }
 
-
 .enterprice{
     width: 100%;
 }
@@ -164,8 +176,6 @@ a{
 .piano ul,.funzioni-piano ul{
     padding: 20px;
 }
-
-
 
 .punti-piano ul{
     list-style-image: url(../img/check-solid.svg);  
