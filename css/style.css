@@ -57,13 +57,12 @@ a{
 
 .btn-blu{
     border: none;
-    padding: 5px;
+    padding: 5px 30px;
     background-color: rgb(0, 97, 255);
+    color: white;
+
 }
 
-.btn-blu a{
-    color: white;
-}
 
 .jumbo-title{
     width: 90%;
@@ -101,21 +100,22 @@ a{
     margin-top: 15rem;
 }
 
-#buisness-plane *{
-    padding: 10px;
+.buy-plane a {
+    color: rgb(0, 97, 255);
 }
 
-#buisness-plane button{
+.buy-plane span{
+    padding-bottom: 2rem;
+    border-bottom: 1px solid lightgrey;
+}
+
+.btn-blu-container{
     text-align: center;
-    padding: 10px 20px ;
 }
 
-.piano p a{
-    color: blue;
-}
 
 .border,.enterprice{
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
     padding: 10px 25px;
 }
 
@@ -123,8 +123,17 @@ a{
     width: calc((100% / 3) - 40px);
 }
 
+.piano div{
+    margin-bottom: 2rem;
+}
+
+
 .enterprice{
     width: 100%;
+}
+
+.enterprice .clearfix{
+    line-height: 50px;
 }
 
 .middle{
@@ -132,12 +141,16 @@ a{
 }
 
 .piano ul{
-    list-style: none;
+    list-style-image: url(../img/vuejs-brands.svg);
 }
 
 .piano-team{
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid lightgrey;
     text-align: center;
+}
+
+.punti-piano{
+    margin-top: 4rem;
 }
 
 /* PARTNER SECTION */
