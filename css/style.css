@@ -259,3 +259,18 @@ a{
     background-color: white;
     color: black;
 }
+/* SEZIONE SETTE QUESTIONS */
+
+.title-questions{
+    padding: 3rem 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+.questions{
+    padding: 2rem 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+.questions i{
+    margin-right: 2rem;
+}
