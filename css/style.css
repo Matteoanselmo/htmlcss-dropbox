@@ -414,8 +414,6 @@ li::marker{
 
 /* BONUS HOVER */
 
-
-
 .questions a{
     color: black;
 }
@@ -449,7 +447,7 @@ footer .container-big{
     padding: 5rem 0 2rem;
 }
 
-.footer-list{
+.footer-list,.footer-list a{
     color: white;
 }
 
@@ -479,4 +477,10 @@ footer .container-big{
 .lenguage{
     margin-top: 2rem;
     color: white;
+}
+
+/* HOVER FOOTER BONUS */
+
+.list li:hover a{
+    text-decoration: underline;
 }
