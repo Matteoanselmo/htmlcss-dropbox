@@ -39,7 +39,6 @@ header{
     z-index: 3;
 }
 
-
 .logo{
     line-height: 75px;
 }
@@ -52,6 +51,27 @@ header{
 .nav li{
     display: inline-block;
 } 
+
+/* PARTI IN HOVER */
+.nav li:hover{
+    border-bottom: 1px solid black;
+}
+
+.sub-menu{
+    width: 10rem;
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 3;
+}
+
+.sub-menu p{
+    font-size: 15px;
+}
+
+#supporto-hover:hover .sub-menu{
+    display: block;
+}
 
 a{
     text-decoration: none;
@@ -98,6 +118,14 @@ a{
     
 }
 
+.jumbo-subtitle p:nth-child(4){
+    margin: 0;
+}
+
+.jumbo-subtitle p i{
+    font-size: 4rem;
+}
+
 .jumbo-subtitle{
     width: 35%;
 }
@@ -109,7 +137,7 @@ a{
 } 
 
 .jumbo-img img{
-    width: 70%
+    width: 80%
 }
 
 /* Main */
@@ -125,6 +153,10 @@ a{
 
 .input-fatturazione{
     margin: 3rem 0 2rem;
+}
+
+.input-fatturazione span{
+    margin: 0 1rem 0 0;
 }
 
 .professional p:nth-of-type(2n){
