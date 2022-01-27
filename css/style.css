@@ -408,6 +408,38 @@ li::marker{
     margin-right: 2rem;
 }
 
+.fa-chevron-up{
+    display: none;
+}
+
+/* BONUS HOVER */
+
+
+
+.questions a{
+    color: black;
+}
+
+.answer{
+    margin-top: 1.5rem;
+    color: lightgrey;
+    display: none;
+    position: relative;
+    z-index: 3;
+}
+
+.questions:hover .answer{
+    display: block;
+}
+
+.questions:hover .fa-chevron-down{
+    display: none;
+}
+
+.questions:hover .fa-chevron-up{
+    display: block;
+}
+
 /* FOOTER */
 footer{
     background-color: black;
